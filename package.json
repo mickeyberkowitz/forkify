@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe applcation",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Michael Berkowitz",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.30.2",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.1",
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  }
+}
